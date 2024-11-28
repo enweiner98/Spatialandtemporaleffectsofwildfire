@@ -12,7 +12,9 @@ SETTING UP COVARIATE DATA
   2. Center and scale covariates for spatial and temporal models +
   3. Create "covariate frames" ("covFrames") for use in occupancy models (later referenced in species-specific .R files)
   4. Perform a correlation analysis
+
 To import covariate data, scale and center covariates, and build covariate frames, **run lines 4-210** 
+
 To build and view correlation matrices and plots for continuous temporal and spatial covariates, **run lines 214-278** 
 
 MODELING OCCUPANCY FOR EACH TARGET SPECIES
