@@ -12,8 +12,8 @@ SETTING UP COVARIATE DATA
   2. Center and scale covariates for spatial and temporal models +
   3. Create "covariate frames" ("covFrames") for use in occupancy models (later referenced in species-specific .R files)
   4. Perform a correlation analysis
-> **Run lines 4-210** to: Import covariate data, scale and center covariates, and build covariate frames
-> **Run lines 214-278** to: Build and view correlation matrices and plots for continuous temporal and spatial covariates
+To import covariate data, scale and center covariates, and build covariate frames, **run lines 4-210** 
+To build and view correlation matrices and plots for continuous temporal and spatial covariates, **run lines 214-278** 
 
 MODELING OCCUPANCY FOR EACH TARGET SPECIES
 > From working directory, open **'coyote_final.R'** file, which contains code to:
@@ -27,3 +27,5 @@ MODELING OCCUPANCY FOR EACH TARGET SPECIES
   3. Create a species-specific autoOcc dataframe + 
   4. Run spatial models, perform AIC comparison, and produce covariate plots +  
   5. Run temporal models, perform AIC comparison, and produce covariate plots
+
+All required data files should be present in the repository. Make sure to run the code in autoOcc_setup.R before attempting to run code in species-specific files.
