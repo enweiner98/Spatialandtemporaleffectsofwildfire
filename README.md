@@ -1,7 +1,7 @@
 REPOSITORY ORIENTATION
 
 This repository contains 3 types of files:
-   1. R project (.Rproj)
+   1. R project file (.Rproj)
    2. Data files (.csv)
    3. Coding files (.R)
 
