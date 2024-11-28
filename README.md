@@ -1,8 +1,9 @@
 REPOSITORY ORIENTATION
 
-This repository contains 2 types of files:
-   1. Data files (.csv)
-   2. Coding files (.R)
+This repository contains 3 types of files:
+   1. R project (.Rproj)
+   2. Data files (.csv)
+   3. Coding files (.R)
 
 > Open **'Thesis.Rproj'** in R Studio
 
